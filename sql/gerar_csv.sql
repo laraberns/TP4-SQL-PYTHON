@@ -53,7 +53,7 @@ CREATE TABLE projetos(
   data_inicio DATE NOT NULL,
   data_conclusao DATE,
   custo_projeto FLOAT NOT NULL,
-  status VARCHAR(20) CHECK (status IN ('Em Planejamento', 'Em Execução', 'Concluído', 'Cancelado')) NOT NULL, 
+  status VARCHAR(20) CHECK (status IN ('Em Planejamento', 'Em Execução', 'Concluído', 'Cancelado')) NOT NULL
 );
 
 -- Criar Tabela Recursos do Projeto
@@ -184,9 +184,37 @@ INSERT INTO historico_salarios (id_funcionario, mes_ano, salario_recebido) VALUE
 (10, '2023-10-31', 6500.00),
 (10, '2023-11-30', 6500.00);
 
+-- Inserir dados na Tabela Projetos
+INSERT INTO projetos (id_funcionario, nome, descricao, data_inicio, data_conclusao, custo_projeto, status) VALUES
+(1, 'Sistema de Gestão', 'Desenvolvimento de um sistema para gestão empresarial', '2024-01-15', '2024-07-30', 50000.00, 'Concluído'),
+(2, 'Portal Web', 'Criação de um portal web para atendimento ao cliente', '2024-03-01', NULL, 25000.00, 'Em Execução'),
+(3, 'App Mobile', 'Aplicativo para dispositivos móveis para e-commerce', '2024-02-10', '2024-10-20', 80000.00, 'Concluído'),
+(4, 'Sistema de RH', 'Desenvolvimento de sistema para automação de processos de RH', '2024-05-05', NULL, 60000.00, 'Em Planejamento'),
+(5, 'ERP Integrado', 'Implantação de ERP para integração de setores', '2023-09-12', NULL, 150000.00, 'Em Execução'),
+(6, 'Sistema Financeiro', 'Ferramenta para gestão de contas e relatórios financeiros', '2024-01-20', '2024-08-30', 70000.00, 'Concluído'),
+(7, 'Automação de Marketing', 'Automação para campanhas e análises de marketing', '2024-06-10', NULL, 30000.00, 'Em Planejamento'),
+(8, 'Integração de Banco de Dados', 'Integração entre sistemas usando um banco de dados centralizado', '2023-11-05', NULL, 120000.00, 'Em Execução'),
+(9, 'Gestão de Estoque', 'Sistema de controle e automação de estoque e logística', '2023-10-25', '2024-04-10', 45000.00, 'Concluído'),
+(10, 'Portal de Atendimento', 'Portal de autoatendimento para clientes', '2024-04-01', '2024-09-30', 55000.00, 'Concluído');
+
+-- Inserir dados na Tabela Recursos do Projeto
+INSERT INTO recursos_projeto (id_projeto, descricao, tipo_recurso, quantidade_utilizada, data_utilizacao) VALUES
+(1, 'Servidores para hospedagem', 'material', 3, '2024-01-18'),
+(2, 'Equipe de desenvolvedores', 'humano', 5, '2024-03-15'),
+(3, 'Banco de dados em nuvem', 'financeiro', 2000.00, '2024-02-20'),
+(4, 'Ferramentas de RH', 'material', 10, '2024-05-10'),
+(5, 'Licenças de software ERP', 'financeiro', 15000.00, '2023-09-20'),
+(6, 'Analistas financeiros', 'humano', 2, '2024-01-22'),
+(7, 'Plataforma de e-mail marketing', 'material', 1, '2024-06-12'),
+(8, 'Serviços de integração de sistemas', 'financeiro', 18000.00, '2023-11-10'),
+(9, 'Estantes e racks de estoque', 'material', 15, '2023-10-30'),
+(10, 'Sistema de chatbot para atendimento', 'material', 1, '2024-04-05');
+
 -- Rodar no Terminal do PSQL para criar arquivos CSV
--- \copy public.cargos TO 'C:\Users\Lara\Documents\TP-3-Bloco\csv\cargos.csv' DELIMITER ',' CSV HEADER;
--- \copy public.departamentos TO 'C:\Users\Lara\Documents\TP-3-Bloco\csv\departamentos.csv' DELIMITER ',' CSV HEADER;
--- \copy public.dependentes TO 'C:\Users\Lara\Documents\TP-3-Bloco\csv\dependentes.csv' DELIMITER ',' CSV HEADER;
--- \copy public.funcionarios TO 'C:\Users\Lara\Documents\TP-3-Bloco\csv\funcionarios.csv' DELIMITER ',' CSV HEADER;
--- \copy public.historico_salarios TO 'C:\Users\Lara\Documents\TP-3-Bloco\csv\historico_salarios.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.cargos TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\cargos.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.departamentos TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\departamentos.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.dependentes TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\dependentes.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.funcionarios TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\funcionarios.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.historico_salarios TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\historico_salarios.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.projetos TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\projetos.csv' DELIMITER ',' CSV HEADER;
+-- \copy public.recursos_projeto TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\recursos_projetos.csv' DELIMITER ',' CSV HEADER;

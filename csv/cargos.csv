@@ -1,0 +1,7 @@
+id_cargo,descricao,salario_base,nivel,carga_horaria_semanal,id_departamento
+1,Analista de Sistemas,5000,analista,40,1
+2,Desenvolvedor Backend,6000,analista,40,1
+3, de Projeto,8000,gerente,45,1
+4,Diretor de Tecnologia,12000,diretor,50,1
+5,Estagiário de TI,2000,estagiário,30,7
+6,Analista de Recursos Humanos,4500,analista,40,2

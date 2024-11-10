@@ -1,0 +1,21 @@
+id_dependente,id_funcionario,relacao,sexo,nome,data_nascimento
+1,1,filho(a),feminino,Maria Bosh,2015-06-20
+2,1,cônjuge,feminino,Laura Bosh,1988-08-15
+3,2,companheiro(a),masculino,Pedro Amado,1990-09-12
+4,2,filho(a),masculino,Lucas Amado,2016-12-05
+5,3,filho(a),masculino,Felipe Silva,2012-10-30
+6,3,cônjuge,feminino,Carla Silva,1991-02-14
+7,4,filho(a),feminino,Isabela Oliveira,2018-03-22
+8,4,companheiro(a),feminino,Camila Oliveira,1989-01-09
+9,5,filho(a),feminino,Sofia Souza,2014-11-10
+10,5,cônjuge,feminino,Juliana Souza,1990-07-17
+11,6,enteado(a),masculino,Rafael Santos,2011-05-02
+12,6,companheiro(a),masculino,Marcelo Santos,1987-12-11
+13,7,filho(a),masculino,André Almeida,2017-02-20
+14,7,filho(a),feminino,Paula Almeida,2019-06-25
+15,8,filho(a),masculino,Roberto Costa,2015-05-16
+16,8,cônjuge,feminino,Juliana Costa,1988-09-30
+17,9,filho(a),masculino,Felipe Lima,2015-08-05
+18,9,filho(a),feminino,Juliana Lima,2018-01-30
+19,10,filho(a),masculino,Rafael Almeida,2016-10-10
+20,10,cônjuge,feminino,Sofia Almeida,1989-02-20

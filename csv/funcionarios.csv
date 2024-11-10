@@ -1,0 +1,11 @@
+id_funcionario,nome,id_cargo,id_departamento,salario_real,data_admissao
+1,Paulo Nobre,2,3,2500,2024-07-10
+2,Keiran Bosh,5,1,2000,2023-05-30
+3,Laura Amado,5,4,2000,2023-05-30
+4,Ana Silva,1,1,5000,2023-01-10
+5,Bruno Oliveira,2,1,6000,2023-02-15
+6,Carlos Souza,3,1,8000,2023-03-20
+7,Daniela Santos,4,1,12000,2023-04-25
+8,Eduardo Costa,5,5,2000,2023-05-30
+9,Fernanda Lima,6,2,4500,2023-06-05
+10,Gabriel Almeida,6,3,6500,2023-07-10
