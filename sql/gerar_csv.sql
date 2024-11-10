@@ -199,16 +199,16 @@ INSERT INTO projetos (id_funcionario, nome, descricao, data_inicio, data_conclus
 
 -- Inserir dados na Tabela Recursos do Projeto
 INSERT INTO recursos_projeto (id_projeto, descricao, tipo_recurso, quantidade_utilizada, data_utilizacao) VALUES
-(1, 'Servidores para hospedagem', 'material', 3, '2024-01-18'),
-(2, 'Equipe de desenvolvedores', 'humano', 5, '2024-03-15'),
-(3, 'Banco de dados em nuvem', 'financeiro', 2000.00, '2024-02-20'),
-(4, 'Ferramentas de RH', 'material', 10, '2024-05-10'),
-(5, 'Licenças de software ERP', 'financeiro', 15000.00, '2023-09-20'),
-(6, 'Analistas financeiros', 'humano', 2, '2024-01-22'),
-(7, 'Plataforma de e-mail marketing', 'material', 1, '2024-06-12'),
-(8, 'Serviços de integração de sistemas', 'financeiro', 18000.00, '2023-11-10'),
-(9, 'Estantes e racks de estoque', 'material', 15, '2023-10-30'),
-(10, 'Sistema de chatbot para atendimento', 'material', 1, '2024-04-05');
+(1, 'Servidores para hospedagem', 'material', 10, '2024-01-18'),
+(2, 'Equipe de desenvolvedores', 'humano', 8, '2024-03-15'),
+(3, 'Banco de dados em nuvem', 'financeiro', 5000.00, '2024-02-20'),
+(4, 'Licenças de software ERP', 'financeiro', 12000.00, '2024-05-10'),
+(5, 'Estantes e racks de estoque', 'material', 25, '2023-09-20'),
+(6, 'Analistas financeiros', 'humano', 4, '2024-01-22'),
+(7, 'Plataforma de e-mail marketing', 'material', 3, '2024-06-12'),
+(8, 'Serviços de integração de sistemas', 'financeiro', 15000.00, '2023-11-10'),
+(9, 'Ferramentas de desenvolvimento de software', 'material', 6, '2024-03-25'),
+(10, 'Consultores de segurança cibernética', 'humano', 2, '2024-04-05');
 
 -- Rodar no Terminal do PSQL para criar arquivos CSV
 -- \copy public.cargos TO 'C:\Users\Lara\Documents\TP4-BLOCO\csv\cargos.csv' DELIMITER ',' CSV HEADER;
