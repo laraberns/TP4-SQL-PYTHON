@@ -1,14 +1,18 @@
-{
-    "custo_total_projeto": {
-        "0": 45000.0,
-        "1": 105000.0,
-        "2": 70000.0,
-        "3": 80000.0
+[
+    {
+        "custo_total_projeto": 45000.0,
+        "nome_departamento": "Compras"
     },
-    "nome_departamento": {
-        "0": "Compras",
-        "1": "Desenvolvimento",
-        "2": "Produção",
-        "3": "Recursos Humanos"
+    {
+        "custo_total_projeto": 105000.0,
+        "nome_departamento": "Desenvolvimento"
+    },
+    {
+        "custo_total_projeto": 70000.0,
+        "nome_departamento": "Produção"
+    },
+    {
+        "custo_total_projeto": 80000.0,
+        "nome_departamento": "Recursos Humanos"
     }
-}
+]
