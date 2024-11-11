@@ -1,0 +1,14 @@
+{
+    "nome_departamento": {
+        "0": "Compras",
+        "1": "Desenvolvimento",
+        "2": "Produção",
+        "3": "Recursos Humanos"
+    },
+    "media_salario": {
+        "0": 4500.0,
+        "1": 4500.0,
+        "2": 8000.0,
+        "3": 2000.0
+    }
+}

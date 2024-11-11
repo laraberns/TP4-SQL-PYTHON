@@ -1,0 +1,12 @@
+{
+    "descricao": {
+        "0": "Estantes e racks de estoque",
+        "1": "Servidores para hospedagem",
+        "2": "Ferramentas de desenvolvimento de software"
+    },
+    "quantidade_utilizada": {
+        "0": 25.0,
+        "1": 10.0,
+        "2": 6.0
+    }
+}
